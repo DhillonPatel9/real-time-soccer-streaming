@@ -1,0 +1,6 @@
+{
+  "API_KEY": "your_api_key_here",
+  "KAFKA_BOOTSTRAP_SERVERS": "localhost:9092",
+  "KAFKA_TOPIC": "soccer-stats",
+  "CSV_OUTPUT_PATH": "data/demo_stats.csv"
+}
