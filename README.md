@@ -26,8 +26,6 @@ This project implements a real-time ingestion pipeline that retrieves live socce
 
 ## Running the Project
 
-## Running the Project
-
 This project can be executed entirely on a local machine with Python and Kafka installed. Using the NC State University HPC cluster is optional and was how the project was originally run.
 
 ### Local Execution (Recommended)
