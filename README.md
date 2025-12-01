@@ -24,42 +24,17 @@ This project implements a real-time ingestion pipeline that retrieves live socce
 
 ---
 
-## Repository Structure
-
-```
-/
-├── src/
-│   ├── fetch_live_events.py     # API polling and ingestion
-│   ├── normalize.py             # JSON cleaning and structuring
-│   └── stream_to_kafka.py       # Kafka producer logic
-├── config/
-│   └── example_config.json      # Placeholder for user credentials/settings
-└── README.md
-```
-
----
+## Running the Project
 
 ## Running the Project
 
-This project was originally executed on the NC State University High-Performance Computing (HPC) cluster. You may adapt it to any standard Linux environment with Python and Kafka installed.
+This project can be executed entirely on a local machine with Python and Kafka installed. Using the NC State University HPC cluster is optional and was how the project was originally run.
 
-### HPC Access (Example)
+### Local Execution (Recommended)
 
-```bash
-ssh -N -L 9999:login01:1113 <your_id>@login.hpc.ncsu.edu
-```
-
-Then access Jupyter (if applicable):
-
-```
-http://localhost:9999/tree?token=<your_token>
-```
-
-### Local Execution
-
-1. Install Python dependencies listed in `requirements.txt` (if provided).
-2. Start a local Kafka broker.
-3. Create a config file containing your API credentials.
+1. Install Python dependencies listed in `requirements.txt`.  
+2. Start a local Kafka broker.  
+3. Create a config file containing your API credentials.  
 4. Run the ingestion components individually or via your orchestrator of choice.
 
 **Important:**  
