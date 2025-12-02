@@ -1,6 +1,6 @@
 # Real-Time Soccer Match Data Streaming (Python, Spring 2025)
 
-This project implements a real-time ingestion pipeline that retrieves live soccer match data from an external API, normalizes the responses, and streams structured records into Kafka. It demonstrates practical skills in API-driven data collection, real-time streaming, and building pipelines suitable for downstream analytics.
+This project implements a real-time ingestion pipeline that retrieves live soccer match data from an external API, normalizes the responses, and streams structured records into Kafka. It demonstrates practical skills in API-driven data collection, real-time streaming, building pipelines suitable for downstream analytics, and is deployed on Streamlit for interactive visualization.
 
 ---
 
