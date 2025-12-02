@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ### 2. Running the Producer (Streamlit)
 
 ```bash
-streamlit run src/producer_streamlit.py
+streamlit run src/streamlit_producer.py
 ```
 
 - Enter a specific fixture ID or leave blank to fetch the first live match.
