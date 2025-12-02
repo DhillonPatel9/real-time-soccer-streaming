@@ -10,7 +10,7 @@ import streamlit as st
 API_KEY = os.getenv("API_KEY")
 KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
 KAFKA_TOPIC = os.getenv("KAFKA_TOPIC")
-CSV_OUTPUT_PATH = os.getenv("CSV_OUTPUT_PATH")
+CSV_OUTPUT_PATH = os.getenv("CSV_OUTPUT_PATH", "data/demo_stats.csv")
 
 # === Kafka Producer ===
 producer = KafkaProducer(
